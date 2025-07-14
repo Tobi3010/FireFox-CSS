@@ -1,0 +1,1 @@
+My FireFox CSSS setup, a combination of Cascade files for minimalism, and my own glass files for transparent affect.
