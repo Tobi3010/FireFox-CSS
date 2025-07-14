@@ -1,0 +1,11 @@
+
+#BMB_bookmarksToolbar, 
+#BMB_searchBookmark,
+#BMB_viewBookmarksSidebar,
+#BMB_searchBookmarks,
+#BMB_unsortedBookmarks,
+#BMB_bookmarksShowAllTop,
+#star-button-box { 
+  display: none !important;
+}
+

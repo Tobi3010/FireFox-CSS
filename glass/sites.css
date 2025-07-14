@@ -1,0 +1,73 @@
+@-moz-document url(about:newtab), url("about:home") {
+    html{
+        --newtab-background-color: transparent !important;
+        --newtab-background-color-secondary: transparent !important;
+    }
+}
+
+@-moz-document domain(github.com) {
+  html {
+    --bgColor-inset: none !important;
+    --bgColor-default: none !important;
+  }
+  
+}
+
+@-moz-document domain(twitch.tv) {
+  :root {
+    --color-background-body: transparent !important;
+    --color-background-base: transparent !important;
+    --color-background-alt: transparent !important;
+  }
+  .cRMumF {
+    box-shadow: none !important;
+  }
+}
+
+@-moz-document domain(google.com) {
+  :root {
+    --xhUGwc: none !important;
+    --bbQxAb: rgb(255, 255, 255) !important;
+    /* --XKMDxc: rgba(57, 255, 20, 0.3) !important;*/
+    
+  }
+  body {
+    background: none !important;
+    color: rgb(210, 210, 210) !important;
+  }
+  .minidiv .sfbg {
+    background: none !important;
+    box-shadow: none !important;
+  }
+  .RNNXgb {
+    background: rgb(0,0,0) !important;
+   
+  }
+  .aajZCb {
+    background: #000;
+  }
+  a:link {
+    color: rgb(0, 191, 255) !important;
+  }
+  a:visited {
+    color: rgb(255, 0, 255) !important;
+  }
+}
+
+
+@-moz-document domain(youtube.com) {
+  html, body {
+    background-color: transparent !important;
+    --yt-spec-base-background: none !important;  
+  }
+
+  #frosted-glass.with-chipbar.ytd-app {
+    background: none !important;
+    backdrop-filter: none !important;
+
+  }
+  #background.ytd-masthead {
+    background: none !important;
+    backdrop-filter: none !important;
+  }
+}
