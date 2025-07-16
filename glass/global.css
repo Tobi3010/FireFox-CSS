@@ -1,0 +1,76 @@
+
+
+@import  "colors.css";
+
+
+* {
+  color: var(--custom-text-color) !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  border-color: var(--custom-border-color);
+}
+
+html, body {
+    background: none !important;
+    background-color: none !important;
+    color: var(--custom-text-color) !important;
+}
+
+/* General anchor styles */
+a:link {
+    color: var(--custom-highlight-text-color1) !important;
+}
+a:visited {
+    color: var(--custom-highlight-text-color2) !important;
+}
+
+/* Common container styles */
+div, section, article {
+    background-color: transparent !important;
+    color: inherit !important;
+    border-color: var(--custom-border-color) !important;
+}
+
+.project-sidebar-section, .modal-layouts, .aajZCb, .bg-black {
+    background: var(--custom-box-color) !important;
+    background-color: var(--custom-box-color) !important;
+  }
+
+
+
+/*
+
+@-moz-document regexp(".*") {
+  html, body {
+    background: none !important;
+    color: var(--custom-text-color) !important;
+  }
+
+  * {
+    background-color: var(--custom-box-color) !important;
+    background: var(--custom-box-color) !important;
+  }
+
+  a {
+    color: var(--custom-hightlight-text-color1)  !important;
+  }
+
+  a:visited {
+    color: var(--custom-hightlight-text-color2) !important;
+  }
+
+  input, textarea, select {
+    color: var(--custom-text-color) !important;
+  }
+
+  .project-sidebar-section, .modal-layouts, .aajZCb {
+    background: var(--custom-box-color) !important;
+    background-color: var(--custom-box-color) !important;
+  }
+}
+
+
+
+
+
+
