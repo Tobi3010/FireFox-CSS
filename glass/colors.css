@@ -1,0 +1,16 @@
+
+/* 
+Defines custom colors for various UI and site elements at root level
+To make them accessible globally, by importing this file.
+*/
+
+:root { 
+  /*Defined custom colors*/
+  --custom-background-color: rgba(0,0,0, 0.85)  !important;
+  --custom-text-color:  rgb(255, 255, 255) !important;
+  --custom-highlight-text-color1: rgb(0, 191, 255) !important;
+  --custom-highlight-text-color2: rgb(255, 0, 255) !important;
+  --custom-highlight-text-color3: rgb(57, 255, 20) !important;
+  --custom-border-color: rgba(255,255,255,0.2) !important;
+  --custom-box-color: rgb(0,0,0) !important;
+}

@@ -1,0 +1,38 @@
+
+
+/*
+Glass customization for the UI of Firefox.
+NOTE: This was made from UI of the Cascade CSS for
+firefox, no guarantees this looks pretty on base
+Firefox.
+*/
+
+@import "colors.css";
+
+
+:root { 
+  --toolbar-bgcolor: var(--custom-background-color) !important;
+  --toolbar-field-background-color: var(--custom-box-color) !important;
+  --color: rgba(255,255,255) !important;
+}
+
+#navigator-toolbox {
+	background: var(--custom-background-color) !important;
+  color: var(--custom-highlight-text-color3) !important;
+}
+
+#tabbrowser-tabpanels{
+	background: none !important;
+}
+
+.tabbrowser-tab {
+  color: var(--custom-highlight-text-color3) !important;
+}
+
+#nav-bar {
+  color: var(--custom-highlight-text-color3) !important;
+}
+
+
+
+
