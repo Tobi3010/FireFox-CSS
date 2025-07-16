@@ -3,40 +3,87 @@
 @import  "colors.css";
 
 
-* {
-  color: var(--custom-text-color) !important;
-  background: transparent !important;
-  background-color: transparent !important;
-  border-color: var(--custom-border-color);
+
+@-moz-document regexp("^(
+  (?!.*(
+    instagram\\.com |
+    twitch\\.tv |
+    youtube\\.com |
+    google\\.com |
+    github\\.com
+  ))).*$") 
+  {
+    * {
+      background: transparent !important;
+      background-color: transparent !important;
+      border-color: var(--custom-border-color) !important;
+    }
+
+    html, body {
+        background: transparent !important;
+        border-color: var(--custom-border-color) !important;
+      
+    }
+
+
+
+    body, 
+    html, 
+    div, 
+    span, 
+    p, 
+    li, 
+    td, 
+    th, 
+    section, 
+    article, 
+    aside {
+      color: var(--custom-text-color) !important;
+    }
+
+    /* General anchor styles */
+    a:link {
+        color: var(--custom-highlight-text-color1) !important;
+    }
+    a:visited {
+        color: var(--custom-highlight-text-color2) !important;
+    }
+
+    /* Common container styles */
+    div, section, article {
+        background-color: transparent !important;
+        border-color: var(--custom-border-color) !important;
+    }
+
+
+    ._abl-,
+    ._aao9, 
+    ._ab6-, 
+    .x1i10hfl, 
+    .x1lliihq,
+    textarea,
+    /*input[type="text"],*/
+    input[type="search"],
+    input[type="email"],
+    input[type="password"],
+    div[role="dialog"],
+    /*div[role="textbox"],*/
+    div[class*="comment"],
+    div[class*="Comment"],
+    /*div[class*="dre-speech"]*/
+    section[class*="comment"],
+    section[class*="Comment"],
+    .project-sidebar-section, 
+    .modal-layouts, 
+    .aajZCb, 
+    .bg-black, 
+    .project-assets,
+    .project-sidebar {
+        background: var(--custom-box-color) !important;
+        background-color: var(--custom-box-color) !important;
+      }
+
 }
-
-html, body {
-    background: none !important;
-    background-color: none !important;
-    color: var(--custom-text-color) !important;
-}
-
-/* General anchor styles */
-a:link {
-    color: var(--custom-highlight-text-color1) !important;
-}
-a:visited {
-    color: var(--custom-highlight-text-color2) !important;
-}
-
-/* Common container styles */
-div, section, article {
-    background-color: transparent !important;
-    color: inherit !important;
-    border-color: var(--custom-border-color) !important;
-}
-
-.project-sidebar-section, .modal-layouts, .aajZCb, .bg-black {
-    background: var(--custom-box-color) !important;
-    background-color: var(--custom-box-color) !important;
-  }
-
-
 
 /*
 
